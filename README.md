@@ -12,8 +12,8 @@ This is a personal portfolio website built to showcase my projects, skills, and 
 
 - **Responsive Design**: Works across various devices (desktops, tablets, mobile).
 - **Dynamic Projects Section**: Lists all my completed projects with descriptions and live links.
-- **Contact Form**: Allows visitors to send messages directly through the website.
-- **Skills Section**: Highlights my technical skills and experience.
+- **Social Media Contacts**: Allows visitors to send messages directly through the website.
+- **Skills Section**: Highlights my technical skills 
 
 ## Installation and Setup
 
@@ -24,15 +24,15 @@ To set up the project locally, follow these steps:
    git clone https://github.com/amaranand360/portfolio-project.git
    cd portfolio-project
     ```
-    2. **Install dependencies**:
+2. **Install dependencies**:
     ```bash
     npm install
     ```
-    3. **Start the development server**:
+3. **Start the development server**:
     ```bash
     npm run dev
     ```
-    4. **Open the website in your browser**:
+4. **Open the website in your browser**:
     Access the website at `http://localhost:5173` in your browser.
 
 
