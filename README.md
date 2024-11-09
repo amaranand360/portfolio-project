@@ -7,6 +7,9 @@ This is a personal portfolio website built to showcase my projects, skills, and 
 - **React**: A JavaScript library for building user interfaces, used for the dynamic and responsive front end.
 - **Vite**: A fast and modern build tool used for bundling and optimizing the React codebase.
 - **Python3**: Used for backend scripting, handling form submissions, or any data processing requirements.
+- **JavaScript Libraries**: Various libraries were used to enhance the functionality of the site.
+- **Font Awesome**: Used for adding scalable vector icons and social media links across the site.
+
 
 ## Features
 
