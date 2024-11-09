@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Social Media web app",
+    "technology": "Next.js Full-Stack App",
+    "highlights": [
+      "A secure and user-friendly social media platform akin to Twitter. Deployed on Vercel with integrated CI/CD for efficient deployment and continuous improvement.",
+      "Technologies Used: Next.js,React with TailwindCSS was used for developing frontend and Express with Prisma for backend and mongodb database management.",
+      "Ensures secure login and registration processes utilizing JWT authentication service, empowering users to share their thoughts and media content",
+      "Enables users to connect, personalize their profiles, and customize them with unique cover images, fostering community engagement and individual expression."
+    ],
+    "source": {
+      "type": "github",
+      "url": "https://github.com/amaranand360/twitter-app"
+    },
+    "demo": {
+      "type": "Web application",
+      "url": "https://social-media-webapp-amar.vercel.app/",
+      "tooltip": "view the live site"
+    },
+    "gallery": [
+      "/screens/laptop/social/1.webp",
+      "/screens/laptop/social/2.webp",
+      "/screens/laptop/social/3.webp",
+      "/screens/laptop/social/4.webp",
+      "/screens/laptop/social/5.webp"
+    ]
+  },
+  {
+    "name": "Ecom React app",
+    "technology": "Dynamic React Website",
+    "highlights": [
+      "Developed the frontend of the project using JavaScript and React, with CSS for styling.",
+      "Utilized Redux and useContext for state management, ensuring efficient data handling and seamless updates throughout the application.",
+      "Implemented user authentication features including login and sign-up functionalities utilizing Firebase authentication service.",
+      "Implemented filtering functionality for products based on price and category.",
+      "Integrated features for adding and removing products from the shopping cart, Included payment integration for seamless checkout process"
+    ],
+    "source": {
+      "type": "github",
+      "url": "https://github.com/amaranand360/Ecom-amazon-react-app-project"
+    },
+    "demo": {
+      "type": "website",
+      "url": "https://ecom-amazon-react-app.vercel.app/",
+      "tooltip": "view the live site"
+    },
+    "gallery": [
+      "/screens/laptop/ecom/0.png",
+      "/screens/laptop/ecom/2.png",
+      "/screens/laptop/ecom/3.png",
+      "/screens/laptop/ecom/4.png",
+      "/screens/laptop/ecom/5.png"
+    ]
+  },
+  {
+    "name": "School Management System",
+    "technology": "MERN Stack",
+    "highlights": [
+      "The software provides a central dashboard for administrators to manage admissions, assign teachers, and organize subjects efficiently",
+      "User-Friendly Interface, tasks like creating timetables, tracking exam results, and generating attendance reports are simplified",
+      "The software facilitates smooth management of student fees, allowing administrators to track payments",
+      "The software features search and filter options to allow users to quickly find and sort through data based on their specific needs and requirements"
+    ],
+    "gallery": [
+      "/screens/laptop/school/0.png",
+      "/screens/laptop/school/1.png",
+      "/screens/laptop/school/2.png",
+      "/screens/laptop/school/3.png",
+      "/screens/laptop/school/4.png",
+      "/screens/laptop/school/5.png"
+    ],
+    "demo": {
+      "type": "desktop application",
+      "tooltip": "just a demo site (real site confidential)"
+    }
+  },
+  {
+    "name": "Todo Application",
+    "technology": "MERN Stack",
+    "highlights": [
+      "Developed a MERN stack Todo App to facilitate efficient task and to-do list management.",
+      "Implemented user authentication features, including login and sign-up functionalities, utilizing JWT authentication service for enhanced security.",
+      "Implemented features using Express.js for handling server-side logic and routing for adding, editing,deleting and ensuring efficient task management.",
+      "Utilized the power of MongoDB, Express.js, React, and Node.js to craft a comprehensive application featuring a resilient backend API and a dynamic, user-friendly frontend interface."
+    ],
+    "gallery": [
+      "/screens/laptop/todo/0.png",
+      "/screens/laptop/todo/1.png",
+      "/screens/laptop/todo/2.png",
+      "/screens/laptop/todo/3.png"
+
+    ],
+    "source": {
+      "type": "github",
+      "url": "https://github.com/amaranand360/Todoappclientside"
+    },
+    "demo": {
+      "type": "website",
+      "url": "https://todoappclientside.vercel.app/",
+      "tooltip": "view the live site"
+    }
+  },
+  {
+    "name": "School Erp Application",
+    "technology": "React and firebase",
+    "highlights": [
+      "Built an ERP system for schools to manage student data, academic records, and administrative tasks.",
+      "Enabled efficient tracking and management of student data, ensuring comprehensive student profiles and academic records.",
+      "Streamlined administrative tasks such as admissions, class assignments,timetable, exams results and fee management.",
+      "Developed responsive frontend using React ,Tailwind CSS and JavaScript and Utilized Firebase for backend operations and real-time updates"
+    ],
+    "gallery": [
+      "/screens/laptop/erp/0.png",
+      "/screens/laptop/erp/1.png",
+      "/screens/laptop/erp/2.png",
+      "/screens/laptop/erp/3.png",
+      "/screens/laptop/erp/4.png",
+      "/screens/laptop/erp/5.png",
+      "/screens/laptop/erp/6.png",
+      "/screens/laptop/erp/7.png"
+    ],
+    "source": {
+      "type": "github",
+      "tooltip": "source code is confidential"
+
+
+    },
+    "demo": {
+      "type": "website",
+      "tooltip": "real site is confidential"
+    }
+  },
+  {
+    "name": "ADVENTURE Time",
+    "technology": "Html-css",
+    "highlights": [
+      "Utilizes CSS for dynamic element adjustments, creating visual depth as users scroll.",
+      "Implements Advance CSS to seamlessly transition background images based on user scrolling",
+      "Ensures optimal performance across devices with CSS media queries for fluid layout adaptation"
+    ],
+    "source": {
+      "type": "github",
+      "url": "https://github.com/amaranand360/ADVENTURE-TIME"
+    },
+    "gallery": [
+      "/screens/laptop/adventure/0.png",
+      "/screens/laptop/adventure/1.png",
+      "/screens/laptop/adventure/3.png"
+    ],
+    "demo": {
+      "type": "desktop application",
+      "url": "https://explore-adventure-website.netlify.app/",
+      "tooltip": "view the live site"
+    }
+  }
+]

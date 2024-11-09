@@ -1,0 +1,127 @@
+@import url("./globals.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: rgb(var(--background));
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: rgb(var(--background));
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--text-primary));
+  animation: anim-gradient 500ms;
+}
+
+/* Scrollbar hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--primary));
+}
+
+@keyframes anim-gradient {
+  from {
+    background: #f00;
+  }
+  to {
+    background: #0ff;
+  }
+}
+
+
+.services {
+  padding: 200px 40px;
+  font-family: 'poppins', sans-serif;
+  background-color: rgb(var(--background));
+  color:rgb(229, 231, 235)
+}
+.services .title{
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+}
+
+
+.services .services-text{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.services .services-text .card{
+  width: calc(33% - 20px);
+  background:rgba(255, 255, 255, 0.1);
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 25px;
+  cursor: pointer;
+}
+
+.services .services-text .card .box{
+  transition: all 0.3s ease;
+}
+.services .services-text .card:hover .box{
+  transform: scale(1.13);
+}
+.services .services-text .card i{
+  font-size: 50px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+.services .services-text .card:hover i{
+  color: #fff;
+}
+.services .services-text .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+@media (max-width:500px){
+
+.services .title{
+  font-size: 20px;
+  font-weight: 250;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  
+}
+.services .title::before{
+  bottom: 0px;
+  left: 50%;
+  width: 100px;
+  height: 2px;
+}
+.services .title::after{
+  font-size: 10px;
+}
+
+.services .services-text{
+  flex-direction: column;
+}
+.services .services-text .card{
+  width: 80%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+}
+.services .services-text .card i{
+  font-size: 25px;
+}
+.services .services-text .card .text{
+  font-size: 15px;
+font-weight: 250;
+margin: 5px 0 4px 0;
+}
+.services .services-text .card p{
+  font-size: 12px;
+}
+
+}
